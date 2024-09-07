@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>We will learn how to use <b>catch</b> and to correct error</p>
+    <p id="error"></p>
+    <script>
+        try{
+            addalert("Welcome!")
+        }
+        catch(err){
+            document.getElementById('error').innerHTML=err.message;
+        }
+    </script>
+</body>
+</html>
