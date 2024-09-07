@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h2, initial-scale=">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JS string method</h2>
+    <p>search at string for"what",display the position of the match and replace the word "fine" with "I am fine"</p>
+    <p id="search"></p>
+    <p id="replace"></p>
+    <p id="string"></p>
+    <script>
+        var str="Hello,I am .What about you?"
+        var search = str.search("What");
+        var txt= str.replace("I am","I am fine")
+        var x=73;
+        var y=56;
+        document.getElementById("search").innerHTML=search;
+        document.getElementById("replace").innerHTML=txt;
+        document.getElementById("string").innerHTML=String(x)+String(y);
+
+
+    </script>
+</body>
+</html>
